@@ -46,3 +46,4 @@ with Session() as session:
     except Exception as erro:
         session.rollback()
         print(f"Erro ao inserir usuário: {erro}")
+        
